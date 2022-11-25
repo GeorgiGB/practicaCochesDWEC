@@ -1,0 +1,10 @@
+/*Archivo para poner diseño a la pagina web*/
+
+h1{
+    color: antiquewhite;
+    text-align: center;
+}
+
+body{
+    background-color: darkcyan;
+}
