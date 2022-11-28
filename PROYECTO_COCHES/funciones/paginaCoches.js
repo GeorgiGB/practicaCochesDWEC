@@ -1,5 +1,5 @@
-import {arrayCoches} from './arrayCoches.js';
-import {msg} from './globales.js';
+const arrayCoches = require ('./arrayCoches.js');
+const msg = require ('./globales.js');
 
 //  Funcion super importate ante cualquier js para iniciar los comandos
 window.onload = ()=>{
@@ -51,4 +51,8 @@ function menu(){
     a2.innerHTML="Coches";
     a3.innerHTML="Ayuda";
     a1.href="index.html";
+}
+
+module.exports = {
+    menu:menu   
 }
