@@ -8,6 +8,6 @@ function msg(message){
     }
 }
 
-module.exports = {
+module.exports={
     msg:msg
 }

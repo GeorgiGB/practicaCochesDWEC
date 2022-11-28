@@ -1,5 +1,5 @@
 /*Js que contiene el array de los vehiculos que saldran por pantalla*/
-const array = [
+const arrayCoches = [
     {
         marca:"Ford", 
         modelo:"Focus",
@@ -53,9 +53,9 @@ const array = [
         kms:2000,
         img:['./img/citroen/citroengris1.jpg'],
         precio:19000
-    },
+    }
 ]
 
-module.exports = {
-    array:array
+module.exports ={
+    arrayCoches:arrayCoches
 }

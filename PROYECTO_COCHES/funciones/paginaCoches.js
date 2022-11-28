@@ -1,5 +1,5 @@
-const arrayCoches = require('./arrayCoches.js');
-const debug = require('./globales.js');
+import {arrayCoches} from './arrayCoches.js';
+import {msg} from './globales.js';
 
 //  Funcion super importate ante cualquier js para iniciar los comandos
 window.onload = ()=>{
@@ -12,7 +12,7 @@ window.onload = ()=>{
 function mostrarCoches(){
     arrayCoches.forEach(element => {
         //Funcion que mostrara por terminal lo que tiene que enseñar
-        debug.msg("Funciona"+element);
+        msg("Funciona"+element);
     });
 }
 
